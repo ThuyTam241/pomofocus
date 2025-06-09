@@ -1,0 +1,48 @@
+#root {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.input-field {
+  appearance: none;
+  width: 100%;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 18px 0;
+  color: #555;
+}
+
+.input-field:focus-visible {
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: rgba(85, 85, 85, 0.2);
+  font-style: italic;
+}
+
+.input-pomo {
+  border-radius: 6px;
+  background-color: rgb(239, 239, 239);
+  font-size: 16px;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+  color: rgb(85, 85, 85);
+  width: 75px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.input-pomo:focus-visible {
+  outline: none;
+}

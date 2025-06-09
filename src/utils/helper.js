@@ -1,0 +1,1 @@
+export const formatTime = (num) => num.toString().padStart(2, "0");
